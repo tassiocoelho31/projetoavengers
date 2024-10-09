@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fw-10 title-large">Avengers Store</h1>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-loja" class="nav-link fs-5"><i class="bi bi-house-door me-1"></i>
+                            Sobre A Loja</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#breve-historia" class="nav-link fs-5"><i class="bi bi-card-text me-1"></i>
+                            Breve história dos Avengers</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link fs-5"><i class="bi bi-card-text me-1"></i>
+                            Produtos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link fs-5"><i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="avengers-heroes">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="/images/slides/avengers1.jpg" alt="avengers1">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="/images/slides/avengers2.jpg" alt="avengers2">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="/images/slides/avengers3.jpg" alt="avengers3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0" ></button >
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" ></button >
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" ></button >
+                </div>
+            </div>
+            <div>
+            <section id="sobre-a-loja">
+                <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="/images/loja.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno da loja">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title nav-link fs-bold display-4">Sobre<span class="text-colored"> a Loja</span></h2>
+                            <p class="fs-4 text-light"> A loja nasceu da paixão de um nerd, que era vidrado nos quadrinhos da Marvel quando criança e sempre sonhou em trabalhar com produtos relacionados aos heróis. Por isso, em 2024 resolveu encarar a empreitada. A Loja dos Avengers hoje é uma das maiores do Brasil e conta com diversos produtos licenciados para você que é fã das histórias em quadrinhos e dos filmes.</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="breve-historia" class="pt-5 pb-5 fw-4 bg-info">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Breve História <span class="text-colored">dos Avengers</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="/images/histórico/avengersoinicio.jpeg" alt="" class="d-block w-100 img-fluid rounded mb-2 img-size">
+                        <h3 class="section-title text-colored">
+                            O Início</h3>
+                        <p class="fs-4 text-light">
+                            A primeira aparição dos Vingadores nos quadrinhos foi em sua própria revista, intitulada The Avengers, em Setembro de 1963 (no mesmo mês de estreia de X-Men). A equipe foi criada por Stan Lee, Jack Kirby e Dick Ayers, como uma resposta à Liga da Justiça, cuja revista reunia em uma história os principais heróis da DC Comics.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/images/histórico/avengersoinicio2.jpeg" alt="" class="d-block w-100 img-fluid rounded mb-2 img-size">
+                        <h3 class="section-title text-colored">
+                            Primeiras Equipes</h3>
+                        <p class="fs-4 text-light">
+                            Diferente de outras equipes do universo Marvel, os Vingadores receberam reconhecimento oficial do governo, quase desde o início com autoridade aceita internacionalmente durante a maior parte de sua história. O grupo é conhecido por reunir os "heróis mais poderosos da Terra" e ao longo de sua história manteve essa premissa, tempo depois houve uma reformulação chefiada pelo Capitão América que recrutou vilões regenerados e tão poderosos como Gavião Arqueiro e os mutantes Mercúrio e sua irmã, a Feiticeira Escarlate. 
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/images/histórico/avengersoinicio3.jpeg" alt="" class="d-block w-100 img-fluid rounded mb-2 img-size">
+                        <h3 class="section-title text-colored">
+                            Universo Cinematográfico</h3>
+                        <p class="fs-4 text-light">
+                            Diferente de outras equipes do universo Marvel, os Vingadores receberam reconhecimento oficial do governo, quase desde o início com autoridade aceita internacionalmente durante a maior parte de sua história. O grupo é conhecido por reunir os "heróis mais poderosos da Terra" e ao longo de sua história manteve essa premissa, tempo depois houve uma reformulação chefiada pelo Capitão América que recrutou vilões regenerados e tão poderosos como Gavião Arqueiro e os mutantes Mercúrio e sua irmã, a Feiticeira Escarlate. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produtos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossos <span class="text-colored">Produtos</span> </h2>
+                </div>
+                <div>
+                    <div class="row">
+                        <aside class="col-md-2">
+                            <nav class="nav nav-pills flex-column nav-produtos">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#miniaturas" class="fw-bold text-start nav-link text-colored active">Miniaturas</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#acessorios-escolares" class="fw-bold text-start nav-link text-colored">Acessórios Escolares</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#roupas-de-cama" class="fw-bold text-start nav-link text-colored">Roupas de Cama</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#camisetas" class="fw-bold text-start nav-link text-colored">Camisetas</button>
+                            </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="miniaturas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/capamerica.jpg" alt="capamerica">
+                                        <h5 class="text-colored fw-bold fs-1 mt-2" id="text-color">Capitão América</h5>
+                                        <p class="fw-5" id="text-color">
+                                            Steve Rogers era um rapaz franzino que, durante a Segunda Guerra Mundial, tinha como maior sonho servir aos Estados Unidos na luta contra os nazistas. Mas sua saúde frágil seria um eterno empecilho, se o rapaz não aceitasse participar em um experimento que poderia transformá-lo em um novo homem. Foi o 1º super soldado do governo.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                        <img class="d-block w-100" src="/homemaranha.jpeg" alt="homemaranha">
+                                        <h5 class="text-colored fw-bold fs-1" id= "text-color">Homem-Aranha</h5>
+                                        <p class="fw-5" id="text-color">
+                                            A história do Homem-Aranha começa em 1962, quando Peter Parker, um estudante de 15 anos, é picado por uma aranha radioativa e se transforma, adquirindo as habilidades de uma aranha, como subir em paredes. Estudioso, bolou um "lança-teias" que é acoplado em seus punhos.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                        <img class="d-block w-100" src="/thor.jpeg" alt="thor">
+                                        <h5 class="text-colored fw-bold fs-1" id="text-color">Thor</h5>
+                                        <p class="fw-5" id="text-color">
+                                            Thor era um deus da mitologia nórdica e o mais popular entre os nórdicos na Era Viking. Era conhecido como o deus do trovão, das tempestades e da agricultura.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                        <img class="d-block w-100" src="/panteranegra.jpeg" alt="panteranegra">
+                                        <h5 class="text-colored fw-bold fs-1" id="text-color">Pantera Negra</h5>
+                                        <p class="fw-5" id="text-color">
+                                            T'Challa, também conhecido como o Pantera Negra, era o Chefe de Estado da nação africana de Wakanda, o país tecnologicamente mais avançado da Terra. Nesse papel, ele era Rei/Chefe, líder religioso e comandante-chefe, tudo ao mesmo tempo. Ele também é considerado um dos maiores intelectos do mundo.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="/ironman.jpeg" alt="ironman">
+                                            <h5 class="text-colored fw-bold fs-1" id="text-color">Homem de Ferro</h5>
+                                            <p class="fw-5" id="text-color">
+                                                Formou-se em engenharia elétrica e física no MIT (Massachusetts Institute of Technology) quando tinha apenas 15 anos. Aos 21 anos, com a morte de seus pais em um acidente de carro, herdou as Indústrias Stark, um complexo industrial-militar, especializado em armas avançadas, com contratos com o governo americano.</p>
+                                            </div>
+                                    </div>
+                                </div>
+                            <div class="tab-pane" id="acessorios-escolares">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/lapisdecorironman.jpeg" alt="lapisdecor">
+                                        <h5 class="text-colored fw-bold mt-2 fs-3 text-light">Lapis de Cor - Homem de Ferro</h5>
+                                        </div>
+                                        <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/lancheirathor.jpeg" alt="lancheira">
+                                        <h5 class="text-colored fw-bold fs-3 text-light">Lancheira - Thor</h5>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="/images/mochilahomemaranha.jpeg" alt="mochila">
+                                            <h5 class="text-colored fw-bold fs-3 text-light">Mochila Homem-Aranha</h5>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="roupas-de-cama">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="/images/edredoncapamerica.jpeg" alt="edredon">
+                                            <h5 class="text-colored fw-bold mt-2 fs-3 text-light">Edredon - Capitão América</h5>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="/images/travesseirohomemaranha.jpeg" alt="travesseiro">
+                                            <h5 class="text-colored fw-bold mt-2 fs-3 text-light">Travesseiro - Homem Aranha</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="camisetas">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="/images/camisetapanteranegra.jpeg" alt="camiseta-pantera-negra">
+                                            <h5 class="text-colored fw-bold mt-2 fs-3 text-light">Camiseta - Pantera Negra</h5>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="/images/camisetahomemdeferro.jpeg" alt="camiseta-homem-de-ferro">
+                                            <h5 class="text-colored fw-bold mt-2 fs-3 text-light">Camiseta - Homem de Ferro</h5>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="/images/camisetacapamerica.jpeg" alt="camiseta-capitao-america">
+                                            <h5 class="text-colored fw-bold mt-2 fs-3 text-light">Camiseta - Capitão América</h5>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="/images/camisetahomemaranha.jpeg" alt="camiseta-homem-aranha">
+                                            <h5 class="text-colored fw-bold mt-2 fs-3 text-light">Camiseta - Homem Aranha</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5 bg-info">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale Conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu Nome:</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu Email:</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu Telefone (opcional):</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua Mensagem:</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>Endereço</h3>
+                            <p class="fs-3 text-light">
+                                Rua Nicky Fury, 2000, Bairro Shield - Gothan City-GA.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>&copy;Tex Corporation - 2024 - All Rights Reserved</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

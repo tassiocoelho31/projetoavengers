@@ -1,0 +1,90 @@
+body {
+    font-family: Marvel, Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: red;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 36px; 
+}
+
+.section-title {
+    font-family: Marvel, Arial, Helvetica, sans-serif;
+    font-size: 3rem; 
+    font-weight: bold;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: white;
+    color: gray;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover, 
+.nav-produtos .nav-link.active:hover {
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: lightpink;
+}
+
+#sobre-a-loja, #produtos {
+    background-color:rgba(215, 124, 90, 0.912);
+}
+
+.text-colored {
+    color: black;
+}
+
+#text-color {
+    color: white;
+    font-size: 20px;
+}
+
+.nav-produtos .nav-link.active,
+#fale-conosco button {
+    background-color: red;
+    color: white;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: red;
+}
+
+.img-size {
+    height: 300px; 
+    object-fit: cover;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 60vh;       
+    object-fit: cover;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: red;
+    font-size:30px;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
